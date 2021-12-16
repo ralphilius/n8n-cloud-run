@@ -25,6 +25,10 @@
       "description": "This is to set the n8n encryption key to a static value, so that heroku doesnt override it, causing AUTH to fail",
       "value": "MdRRn2jiZuVeh5tI77A6"
     },
+    "DATABASE_URL": {
+      "description": "Database connection string. Supports PostgreSQL and MongoDB",
+      "value": null
+    },
     "PGSSLMODE": {
       "description": "Heroku made a change so SSL is required to connect to Postgres",
       "value": "require"
